@@ -1,6 +1,6 @@
 //Task 1
 
-/*function getSum(n) {
+function getSum(n) {
     var sum = 0;
 
     for (var i = 0; i <= n; i++) {
@@ -11,11 +11,11 @@
 }
 
 var result = getSum(100);
-console.log(result);*/
+console.log(result);
 
 //Task 2
 
-/*function calculate(amount) {
+function calculate(amount) {
     var percentInYear = 17; 
     const amountOfYears = 5; 
 
@@ -30,11 +30,11 @@ console.log(result);*/
 
 var amount = 10000; 
 var result = calculate(amount);
-console.log('Переплата по кредиту: ' + result); */
+console.log('Переплата по кредиту: ' + result); 
 
 //Task 3
 
-/*function trimString(str, from, to) {
+function trimString(str, from, to) {
     var trimmedString = '';
 
     for (var i = from; i <= to && i < str.length; i++) {
@@ -47,12 +47,12 @@ console.log('Переплата по кредиту: ' + result); */
 
 var originalString = "если 48 умножить на 48 и разделить на 48, то ответ в консоли будет";
 var result = trimString(originalString, 5, 7);
-console.log(result); */
+console.log(result); 
 
 
 //Task 4
 
-/*function getSumNumbers(number) {
+function getSumNumbers(number) {
     var numberStr = number.toString();
     
     var sum = 0;
@@ -67,12 +67,12 @@ console.log(result); */
 
 var numberToSum = 2021;
 var result = getSumNumbers(numberToSum);
-console.log(result);*/
+console.log(result);
 
 
 //Task 5
 
-/*function getSum(a, b) {
+function getSum(a, b) {
     if (a === b) {
         return a;
     }
@@ -96,7 +96,7 @@ console.log(getSum(1, 1));
 console.log(getSum(-1, 0)); 
 console.log(getSum(-1, 2)); 
 
-*/
+
 
 //Tasl 6
 
